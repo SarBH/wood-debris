@@ -1,0 +1,464 @@
+{
+    "DSC01670_r.JPG340553": {
+        "filename": "DSC01670_r.JPG",
+        "size": 340553,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        507,
+                        497,
+                        484,
+                        461,
+                        423,
+                        384,
+                        431,
+                        463,
+                        510,
+                        524,
+                        528,
+                        556,
+                        538,
+                        521
+                    ],
+                    "all_points_y": [
+                        35,
+                        82,
+                        142,
+                        211,
+                        299,
+                        372,
+                        396,
+                        320,
+                        159,
+                        75,
+                        37,
+                        5,
+                        13,
+                        33
+                    ]
+                },
+                "region_attributes": {
+                    "name": "branch"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        634,
+                        542,
+                        540,
+                        636
+                    ],
+                    "all_points_y": [
+                        326,
+                        325,
+                        339,
+                        341
+                    ]
+                },
+                "region_attributes": {
+                    "name": "branch"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        668,
+                        638,
+                        677,
+                        682,
+                        656,
+                        679
+                    ],
+                    "all_points_y": [
+                        342,
+                        381,
+                        438,
+                        419,
+                        378,
+                        350
+                    ]
+                },
+                "region_attributes": {
+                    "name": "branch"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        467,
+                        532,
+                        590,
+                        649,
+                        697,
+                        704,
+                        694,
+                        653,
+                        575,
+                        540,
+                        518,
+                        469
+                    ],
+                    "all_points_y": [
+                        157,
+                        179,
+                        190,
+                        203,
+                        198,
+                        198,
+                        188,
+                        185,
+                        171,
+                        173,
+                        159,
+                        151
+                    ]
+                },
+                "region_attributes": {
+                    "name": "branch"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        364,
+                        350,
+                        343,
+                        357,
+                        367,
+                        393,
+                        387,
+                        385
+                    ],
+                    "all_points_y": [
+                        155,
+                        162,
+                        178,
+                        195,
+                        197,
+                        183,
+                        163,
+                        154
+                    ]
+                },
+                "region_attributes": {
+                    "name": "camera-bag"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        371,
+                        371,
+                        413,
+                        429,
+                        431,
+                        388
+                    ],
+                    "all_points_y": [
+                        110,
+                        127,
+                        141,
+                        132,
+                        113,
+                        99
+                    ]
+                },
+                "region_attributes": {
+                    "name": "box"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        614,
+                        579,
+                        565,
+                        628,
+                        704,
+                        781,
+                        778,
+                        789
+                    ],
+                    "all_points_y": [
+                        2,
+                        51,
+                        79,
+                        89,
+                        96,
+                        101,
+                        41,
+                        3
+                    ]
+                },
+                "region_attributes": {
+                    "name": "tree"
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "DSC01669_r.JPG344321": {
+        "filename": "DSC01669_r.JPG",
+        "size": 344321,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        693,
+                        668,
+                        749,
+                        759,
+                        768
+                    ],
+                    "all_points_y": [
+                        3,
+                        75,
+                        82,
+                        73,
+                        4
+                    ]
+                },
+                "region_attributes": {
+                    "name": "tree"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        849,
+                        837,
+                        863,
+                        869
+                    ],
+                    "all_points_y": [
+                        3,
+                        82,
+                        84,
+                        0
+                    ]
+                },
+                "region_attributes": {
+                    "name": "tree"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        918,
+                        891,
+                        918,
+                        932
+                    ],
+                    "all_points_y": [
+                        2,
+                        86,
+                        80,
+                        1
+                    ]
+                },
+                "region_attributes": {
+                    "name": "tree"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        685,
+                        685,
+                        675,
+                        662,
+                        665
+                    ],
+                    "all_points_y": [
+                        4,
+                        21,
+                        53,
+                        55,
+                        3
+                    ]
+                },
+                "region_attributes": {
+                    "name": "tree"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        79,
+                        44,
+                        2,
+                        3,
+                        35,
+                        85
+                    ],
+                    "all_points_y": [
+                        218,
+                        164,
+                        0,
+                        305,
+                        302,
+                        233
+                    ]
+                },
+                "region_attributes": {
+                    "name": "tree"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        669,
+                        643,
+                        615,
+                        300,
+                        3,
+                        2,
+                        566,
+                        629,
+                        659
+                    ],
+                    "all_points_y": [
+                        143,
+                        160,
+                        176,
+                        277,
+                        363,
+                        309,
+                        161,
+                        141,
+                        121
+                    ]
+                },
+                "region_attributes": {
+                    "name": "branch"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        489,
+                        527,
+                        545,
+                        606,
+                        633,
+                        650,
+                        682,
+                        732,
+                        780,
+                        822,
+                        857,
+                        871,
+                        935,
+                        953,
+                        939,
+                        892,
+                        852,
+                        800,
+                        737,
+                        715,
+                        655,
+                        597,
+                        549,
+                        491,
+                        452
+                    ],
+                    "all_points_y": [
+                        351,
+                        361,
+                        368,
+                        341,
+                        349,
+                        347,
+                        363,
+                        364,
+                        382,
+                        389,
+                        372,
+                        382,
+                        382,
+                        380,
+                        388,
+                        397,
+                        394,
+                        407,
+                        400,
+                        384,
+                        380,
+                        367,
+                        383,
+                        385,
+                        355
+                    ]
+                },
+                "region_attributes": {
+                    "name": "branch"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        380,
+                        384,
+                        430,
+                        489,
+                        483,
+                        433
+                    ],
+                    "all_points_y": [
+                        313,
+                        339,
+                        363,
+                        345,
+                        316,
+                        292
+                    ]
+                },
+                "region_attributes": {
+                    "name": "box"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        547,
+                        537,
+                        559,
+                        588,
+                        594,
+                        574
+                    ],
+                    "all_points_y": [
+                        237,
+                        267,
+                        278,
+                        268,
+                        242,
+                        229
+                    ]
+                },
+                "region_attributes": {
+                    "name": "camera-bag"
+                }
+            }
+        ],
+        "file_attributes": {}
+    }
+}
