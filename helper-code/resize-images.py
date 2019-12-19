@@ -1,8 +1,8 @@
 import os
 import cv2
 
-orig_path = '/home/sarita/Documents/wood-debris/data/train/masks' # path to the original full sized images
-resized_path = '/home/sarita/Documents/wood-debris/resized/masks' # path to place resized images
+orig_path = '/home/sarita/Documents/data-july-24 original/July_24_camholder' # path to the original full sized images
+resized_path = '/home/sarita/Documents/data-july-24 resized/train/images' # path to place resized images
 
 # iterate through all images in path
 for filename in os.listdir(orig_path):
@@ -22,7 +22,7 @@ for filename in os.listdir(orig_path):
     print('Resized dimensions', resized.shape)
 
     # enter name for resized image: I keep the same name with a _r at the end
-    new_img_name = filename[:-4] + '_r.JPG'
+    new_img_name = filename[:-4] + '_r.jpg'
 
     # export the resized image
     cv2.imwrite(os.path.join(resized_path, new_img_name), resized)
