@@ -17,13 +17,13 @@ def convert_to_mask(x_coord, y_coord, sample_name, class_name, ann_img):
     
     # depending of the class of that region, paint it a different shade
     if class_name == "branch":
-        cv2.fillConvexPoly(ann_img, all_poly_coords, 20)
+        cv2.fillConvexPoly(ann_img, all_poly_coords, 2)
     if class_name == "box":
-        cv2.fillConvexPoly(ann_img, all_poly_coords, 60)
+        cv2.fillConvexPoly(ann_img, all_poly_coords, 3)
     if class_name == "camera-bag":
-        cv2.fillConvexPoly(ann_img, all_poly_coords, 100)
+        cv2.fillConvexPoly(ann_img, all_poly_coords, 4)
     if class_name == "tree":
-        cv2.fillConvexPoly(ann_img, all_poly_coords, 140)
+        cv2.fillConvexPoly(ann_img, all_poly_coords, 5)
 
     # return mask with added region
     return ann_img
@@ -45,7 +45,7 @@ if __name__ == "__main__":
         for image in json_file["_via_img_metadata"].values():
             filename = image["filename"]
             
-            prev_mask = np.zeros((IMG_SHAPE[0], IMG_SHAPE[1]))
+            prev_mask = np.ones((IMG_SHAPE[0], IMG_SHAPE[1]))
             
             # fail-safe: if no regions were defined for an image, skip it
             if image["regions"] == []:
@@ -63,4 +63,5 @@ if __name__ == "__main__":
                 prev_mask = masked_image
             
             # when done with all regions defined for an image, save the mask.
-            cv2.imwrite(str("data/train/masks/"+filename+".png"), masked_image)
+            image_tensor = np.dstack([masked_image, masked_image, masked_image])
+            cv2.imwrite(str("data/train/masks/"+filename+".png"), image_tensor)

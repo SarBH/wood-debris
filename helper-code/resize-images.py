@@ -1,18 +1,21 @@
 import os
 import cv2
 
-orig_path = 'data/unlabeled/standard objects only' # path to the original full sized images
-resized_path = 'data/unlabeled/standard-objects-resized' # path to place resized images
+orig_path = '/home/sarita/Documents/wood-debris/data/train/masks' # path to the original full sized images
+resized_path = '/home/sarita/Documents/wood-debris/resized/masks' # path to place resized images
 
 # iterate through all images in path
 for filename in os.listdir(orig_path):
     img = cv2.imread(os.path.join(orig_path, filename))
     print('Orig. dimensions', img.shape)
 
-    # resize images by scale_percent %
-    scale_percent = 25
-    width = int(img.shape[1] * scale_percent/100)
-    height = int(img.shape[0] * scale_percent/100)
+    # # resize images by scale_percent %
+    # scale_percent = 25
+    # width = int(img.shape[1] * scale_percent/100)
+    # height = int(img.shape[0] * scale_percent/100)
+    
+    width = 960
+    height = 544
     dim = (width, height)
     resized = cv2.resize(img, dim, interpolation=cv2.INTER_AREA)
 
