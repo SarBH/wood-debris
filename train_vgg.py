@@ -18,12 +18,12 @@ model = vgg_unet(n_classes=5 ,  input_height=544, input_width=960)
 model.train(
     train_images =  "data/train/images/",
     train_annotations = "data/train/masks/",
-    checkpoints_path = "tmp/vgg_wood-debris_v1" , epochs=5
+    checkpoints_path = "tmp/vgg_wood-debris_v2" , epochs=5
 )
 
 out = model.predict_segmentation(
-    inp="data/val/DSC01669_r.JPG",
-    out_fname="tmp/predictions/DSC01669_r.png"
+    inp="data/val/images/DSC01670_r.jpg",
+    out_fname="tmp/predictions/DSC01670_r.png"
 )
 
 import matplotlib.pyplot as plt
