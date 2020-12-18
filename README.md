@@ -1,9 +1,12 @@
 # wood-debris
 
 This repo contains data and files for the image segmentation task for wood debris detection.
+
 This project acted as a **proof of concept** to the proposal of using machine learning computer vision to quantify the amount of wood debris from photographs. 
+
 The idea is to calculate the area of the 2D image covered by dried out and fallen branches and use it to estimate of the volume of flammable material presented in the image.
 Since the photographer is taking these photos from different distances to the objects, an approximate calibration is performed using a set of known objects that were placed in the image near the debris: the "camera-bag" and the "box".
+
 The problem of wood debris quantification on forests was proposed by Prof. Strigul from Stevens Institute of Technology.
 
 ## See the Presentation in this repo for proposed solutions and results.
